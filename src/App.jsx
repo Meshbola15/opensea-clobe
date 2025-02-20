@@ -20,7 +20,6 @@ const App = () => {
           src={video}
           autoPlay
           loop
-          muted
           controls={false}
           playsInline
           controlsList="nodownload"
@@ -38,7 +37,7 @@ const App = () => {
             rel="noopener noreferrer"
             className="text-secondary font-semibold underline"
           >
-            $SEA
+            $S EA
           </a>{" "}
           is coming. But before that here is a chance for you to claim your
           airdrop which is available for only our whitelisted users.
@@ -47,7 +46,7 @@ const App = () => {
         <Button icon={<FaCoins />} text={"$Claim Airdrop"} />
 
         <p className="mt-[60px]">
-          Copyright © 2025 Novamods | Powered by Novamods
+          Copyright © 2025 Opensea | Powered by Opensea Airdrop
         </p>
       </div>
     </div>
@@ -60,7 +59,7 @@ const Logo = () => {
   return (
     <div className="flex items-center justify-start gap-2">
       <img src={logo} alt="openai-logo" className="w-[40px]  lg:max-w-[60px]" />
-      <p className="text-nowrap big-text hidden min-[400px]:block">Open Sea</p>
+      <p className="text-nowrap big-text hidden min-[400px]:block">OpenSea</p>
     </div>
   );
 };
